@@ -18,7 +18,7 @@ This is the lita bot running on the ikarem slack.
 
 # I want to deploy!
 
-The bot is hosted on heroku, and after merging your pull @ahayworth can deploy. Or, if you want, just ask for access.
+Send a pull request (or ask for access to the repo). The master branch is deployed automatically to Heroku.
 
 # Notes
 
