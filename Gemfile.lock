@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/ahayworth/lita-pugbomb.git
+  revision: ef452f86c51c14c2b02d1faa60166c08db1acb80
+  branch: doge_bomb
+  specs:
+    lita-pugbomb (1.1.0)
+      lita (>= 2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -41,8 +49,6 @@ GEM
       lita (>= 4.0)
     lita-karma (3.0.1)
       lita (>= 4.0)
-    lita-pugbomb (1.0.2)
-      lita (>= 2.0)
     lita-slack (1.1.0)
       eventmachine
       faraday
@@ -86,7 +92,7 @@ DEPENDENCIES
   lita-google
   lita-google-images
   lita-karma
-  lita-pugbomb
+  lita-pugbomb!
   lita-slack
   lita-stocks
   lita-wikipedia
