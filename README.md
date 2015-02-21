@@ -1,15 +1,25 @@
-# Lita development environment
+This is the lita bot running on the ikarem slack.
 
-This repository provides Lita users with a complete development environment for trying out Lita and developing Lita plugins.
+# How to hack:
 
-## Quick start
+0. Fork the repo and clone
 
-If you are already familiar with Vagrant and have it installed, just run the usual `vagrant up` and `vagrant ssh` commands.
+1. Install vagrant and virtualbox on your mac
 
-## Documentation
+2. vagrant up && vagrant ssh
 
-For complete documentation on installing and using the development environment, please visit [Installation](http://docs.lita.io/getting-started/installation/) on the Lita documentation site.
+3. apt-get install build-essential
 
-## License
+4. bundle install
 
-[MIT](http://opensource.org/licenses/MIT)
+5. Change the config file to use the :shell adapter; comment out the slack bits, and change the redis info (redis runs on the vagrant box).
+
+6. `lita` will connect you to litabot.
+
+# I want to deploy!
+
+The bot is hosted on heroku, and after merging your pull @ahayworth can deploy. Or, if you want, just ask for access.
+
+# Notes
+
+https://uptimerobot.com pings litabot every 5 minutes to keep him running.
