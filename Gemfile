@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "lita"
 gem "lita-ascii-art"
+gem "lita-corporate-bs-generator"
 gem "lita-dice"
 gem "lita-dogebomb"
 gem "lita-excuses"

@@ -28,6 +28,9 @@ GEM
     lita-ascii-art (0.0.3)
       artii (>= 2.0.4)
       lita (>= 3.0.0)
+    lita-corporate-bs-generator (1.0.0)
+      lita (>= 2.0)
+      nokogiri
     lita-dice (0.0.1)
       lita (>= 2.7)
     lita-dogebomb (1.0.0)
@@ -82,6 +85,7 @@ PLATFORMS
 DEPENDENCIES
   lita
   lita-ascii-art
+  lita-corporate-bs-generator
   lita-dice
   lita-dogebomb
   lita-excuses
